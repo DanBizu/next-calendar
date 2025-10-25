@@ -41,42 +41,48 @@ body {
 }
 
 /* ---------- Headings ---------- */
-h1, .h1 {
+h1,
+.h1 {
   font-size: var(--text-4xl);
   font-weight: var(--weight-bold);
   line-height: var(--line-tight);
   margin-bottom: 0.5em;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: var(--text-3xl);
   font-weight: var(--weight-semibold);
   line-height: var(--line-snug);
   margin-bottom: 0.5em;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: var(--text-2xl);
   font-weight: var(--weight-semibold);
   line-height: var(--line-snug);
   margin-bottom: 0.4em;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: var(--text-xl);
   font-weight: var(--weight-medium);
   line-height: var(--line-normal);
   margin-bottom: 0.3em;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: var(--text-lg);
   font-weight: var(--weight-medium);
   line-height: var(--line-normal);
   margin-bottom: 0.2em;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: var(--text-base);
   font-weight: var(--weight-medium);
   line-height: var(--line-normal);
@@ -100,13 +106,15 @@ a {
   color: #0070f3;
   text-decoration: none;
   font-weight: var(--weight-medium);
-}
-a:hover {
-  text-decoration: underline;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 /* ---------- Code ---------- */
-code, pre {
+code,
+pre {
   font-family: var(--font-mono);
   font-size: var(--text-sm);
   background: #f5f5f5;
@@ -115,7 +123,18 @@ code, pre {
 }
 
 /* ---------- Utility classes ---------- */
-.text-center { text-align: center; }
-.text-right { text-align: right; }
-.text-muted { color: #666; }
-.text-uppercase { text-transform: uppercase; }
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-muted {
+  color: #666;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
